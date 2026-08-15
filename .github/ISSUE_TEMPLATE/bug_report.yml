@@ -1,0 +1,34 @@
+name: Bug report
+description: Report reproducible behavior that differs from the intended Atlas experience.
+title: "bug: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not paste secrets, credentials, private source code, or personal data."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observable behavior and expected outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. Open ...\n2. Submit ...\n3. Observe ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options: [Workspace, Analysis report, System map, Session history, Chat, Authentication, Documentation, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Safe additional context
+      description: Include sanitized screenshots or logs only.

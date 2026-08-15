@@ -1,5 +1,9 @@
 # CodeForge Atlas
 
+[![Verify](https://github.com/aboodi76/codeforge-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/aboodi76/codeforge-atlas/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8be9d0.svg)](LICENSE)
+[![Status: Public beta](https://img.shields.io/badge/status-public%20beta-151625.svg)](https://github.com/aboodi76/codeforge-atlas/releases)
+
 > **Change intelligence for codebases that matter.**
 
 CodeForge Atlas is a private-by-default AI workspace that helps engineers understand a proposed code change before implementation. It turns a supplied source file and change intent into a constrained engineering readout: **direct evidence**, **explicit assumptions**, a lightweight **system map**, change-impact risks, review findings, generated documentation, test guidance, and contextual follow-up questions.
@@ -63,4 +67,4 @@ Copyright 2026 CodeForge Atlas contributors. Licensed under the [MIT License](LI
 
 ## Status
 
-This repository is a private, pre-release project. Public release, user-facing legal policies, and production data handling must be reviewed and approved before publication.
+This repository is a public beta. User-facing legal policies and production data handling still require qualified legal review before commercial launch.
