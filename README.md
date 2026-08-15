@@ -27,7 +27,7 @@ Atlas is an engineering aid, not an autonomous deployment system. Treat every ge
 
 ## Stack
 
-The application uses React, TypeScript, Tailwind CSS, Express, tRPC, Drizzle ORM, Manus OAuth, and an LLM integration with strict JSON-schema output for Atlas reports.
+The application uses React, TypeScript, Tailwind CSS, Express, tRPC, Drizzle ORM, session authentication, and an LLM integration with strict JSON-schema output for Atlas reports.
 
 ## Local development
 
