@@ -6,6 +6,8 @@
 
 > **Change intelligence for codebases that matter.**
 
+**Project owner and maintainer:** [aboodi12](https://github.com/ABOODI12)
+
 CodeForge Atlas is a private-by-default AI workspace that helps engineers understand a proposed code change before implementation. It turns a supplied source file and change intent into a constrained engineering readout: **direct evidence**, **explicit assumptions**, a lightweight **system map**, change-impact risks, review findings, generated documentation, test guidance, and contextual follow-up questions.
 
 ## Why Atlas
