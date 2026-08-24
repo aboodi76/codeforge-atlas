@@ -57,11 +57,13 @@ The database schema is defined in `drizzle/schema.ts`. Generate migrations with 
 | `server/atlas.ts` | Input redaction, report schema, analysis prompt, and output validation. |
 | `server/atlas*.test.ts` | Unit tests for report safety and protected session procedures. |
 | `drizzle/` | Data schema and generated database migrations. |
-| `docs/` | Architecture and legal-readiness drafts. |
+| `docs/` | Architecture, governance, and legal-readiness drafts. |
 
 ## Responsible contribution
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before participating. The documents in `docs/legal/` are **drafts for review**, not legal advice and not a substitute for counsel in the launch jurisdiction.
+
+The project’s public-beta release posture, change standards, verification requirements, and branch-protection controls are documented in the [development governance policy](docs/development-governance.md).
 
 ## License
 
